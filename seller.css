@@ -507,7 +507,7 @@ section {
 }
 
 .services-row .card {
-    background: #232427;
+    /* background: #232427; */
     position: relative;
     min-width: 320px;
     height: 440px;
@@ -525,17 +525,13 @@ section {
     left: 20px;
     right: 20px;
     bottom: 20px;
-    background: #2a2b2f;
+    /* background: #2a2b2f; */
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     transition: 0.5s;
-}
-
-.services-row .card .box:hover {
-    transform: translateY(-50px);
 }
 
 .services-row .card .box:before {
@@ -562,9 +558,9 @@ section {
 }
 
 .services-row .card .box .content p {
+    color: #333;
     font-size: 0.9rem;
     font-weight: 300;
-    color: rgba(255, 255, 255, 0.9);
     z-index: 1;
     transition: 0.5s;
 }
