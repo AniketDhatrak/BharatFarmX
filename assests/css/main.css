@@ -2,12 +2,11 @@
   box-sizing: border-box;
 }
 body {
-  margin: 20px auto;
+  margin:auto;
   padding: 0;
   /* box-sizing: border-box; */
   font-family: sans-serif;
   color: white;
-  width: 95%;
   background-color: azure;
 }
 
