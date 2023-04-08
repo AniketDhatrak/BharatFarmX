@@ -20,8 +20,8 @@ body {
     scroll-behavior: smooth;
     /* background: linear-gradient(to bottom right, #082A3A, #8099e9, #171430); */
     /* background: linear-gradient(to right, #0a5a2c, #0dba2a, #aafbb8); */
-    background: linear-gradient(to right, #0dba2a, #aafbb8);
-    background-repeat: no-repeat;
+    /* background: linear-gradient(to right, #0dba2a, #aafbb8);
+    background-repeat: no-repeat; */
 }
 
 a {
@@ -290,6 +290,11 @@ section {
 
 
 /* # home Section */
+.home-color{
+    background: linear-gradient(to right, #0dba2a, #aafbb8);
+    background-repeat: no-repeat;
+}
+
 .home {
     width: 100%;
     height: 100vh;
